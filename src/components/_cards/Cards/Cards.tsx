@@ -4,13 +4,13 @@ import "./Cards.css";
 // Group 1
 const cards_group1 = [
   {
-    src: "src/assets/images/starship-ruins.jpg",
+    src: "public/images/starship-ruins.jpg",
     text: "Decode alien glyphs inside the wreckage of an ancient starship.",
     label: "XenoTech",
     path: "/missions",
   },
   {
-    src: "src/assets/images/nebula-cruise.jpg",
+    src: "public/images/nebula-cruise.jpg",
     text: "Navigate through unstable wormholes beyond the Crimson Nebula.",
     label: "VoidNav",
     path: "/missions",
@@ -20,19 +20,19 @@ const cards_group1 = [
 // Group 2
 const cards_group2 = [
   {
-    src: "src/assets/images/cyber-lab.jpg",
+    src: "public/images/cyber-lab.jpg",
     text: "Infiltrate a black-site AI research facility lost in time.",
     label: "CyberOps",
     path: "/missions",
   },
   {
-    src: "src/assets/images/frozen-moon.jpg",
+    src: "public/images/frozen-moon.jpg",
     text: "Survive the frost-bitten ruins of Titan’s failed colony.",
     label: "Survival",
     path: "/missions",
   },
   {
-    src: "src/assets/images/quantum-vault.jpg",
+    src: "public/images/quantum-vault.jpg",
     text: "Access the Quantum Vault sealed by interdimensional protectors.",
     label: "ChronoHack",
     path: "/missions",
