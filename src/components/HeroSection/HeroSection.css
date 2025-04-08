@@ -7,7 +7,9 @@ video {
 }
 
 .hero-container {
-  background: url("https://skyrim626.github.io/void-rift/images/img-home.jpg") center center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   display: flex;

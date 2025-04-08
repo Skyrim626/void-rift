@@ -2,11 +2,18 @@ import { useState } from "react";
 import Button from "../Button";
 import "./HeroSection.css";
 
+import homeImg from "/images/img-home.jpg";
+
 const HeroSection = () => {
   const [click, setClick] = useState<boolean>(false);
 
   return (
-    <div className="hero-container">
+    <div
+      className="hero-container"
+      style={{
+        backgroundImage: `url(${homeImg})`,
+      }}
+    >
       {/* <video src={videoClip} autoPlay loop muted /> */}
       <h1>Exploration Awaits</h1>
       <p>What are you waiting for?</p>
