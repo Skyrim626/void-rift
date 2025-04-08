@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     path: "/sign-up",
     element: <SignUp />,
   }, */
-]);
+], {basename: "/void-rift"});
 
 // Export router
 export default router;
